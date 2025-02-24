@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.fondo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: black;
+}
+
+body {
+  overflow-y: auto;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+  display: none !important;
+}
+
+html {
+  overflow-y: auto;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar {
+  width: 0 !important;
+  display: none !important;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:768px) {
+  .menu {
+    display: block !important;
+  }
+}
+
+.navbar-toggler {
+  border: 1px solid #ccc !important;
+  /* Borde gris claro */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  /* Cambia el color de las barras del ícono a negro */
+}
+
+/* Logo */
+.menu-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.menu-logo img {
+  width: 90px;
+  height: 90px;
+}
+
+/* Menu de Navegación */
+.menu-nav {
+  display: inline-block;
+}
+
+.menu-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu-nav ul li a {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding: 4px 0;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+/* Efecto en el menu al pasar el mouse */
+.menu-nav ul li a::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+  transition: 0.5s transform ease;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0 50%;
+}
+
+/* Efecto hover en el menu */
+.menu-nav ul li a:hover::before {
+  transform: scale3d(1, 1, 1);
+}
+
+/*Imagen Palo*/
+.imagen-personalizada {
+  width: 300px;
+  height: 80px;
+
+}
+
+.imagen-personalizadaIz {
+  width: 300px;
+  height: 80px;
+}
+
+#texto {
+  color: white;
+  text-align: center;
+}
+
+.grupo {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.icon {
+  color: white;
+  font-size: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+#icon2 {
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+spline-viewer {
+  width: 100%;
+  height: 100%;
+}

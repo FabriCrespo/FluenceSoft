@@ -1,0 +1,67 @@
+.footer {
+    background: black;
+    padding: 40px 20px;
+    color: white;
+}
+  
+#footer-content {
+    margin: 0 auto;
+    text-align: center;
+}
+  
+#socialRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.line {
+    height: 1px;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 20px;
+}
+  
+.socialI {
+    display: flex;
+    gap: 20px;
+}
+  
+.socialWG {
+    font-size: 40px; 
+    color: white; 
+    transition: color 0.3s ease;
+}
+  
+.socialWG:hover {
+    color: #1d1037; 
+}
+  
+.copyright {
+    font-size: 14px;
+    color: #ffffff;
+}
+  
+.copyright p {
+    margin: 5px 0;
+}
+  
+.copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.copyright a:hover {
+    text-decoration: underline;
+}
+  
+.copyright-text {
+    opacity: 0.8;
+}
+  
+.iconofoderS {
+    width: 160px;
+    height: 140px;
+    object-fit: contain; 
+}

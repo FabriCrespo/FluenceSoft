@@ -1,0 +1,122 @@
+body {
+    background-color: #0D0D0D;
+}
+#MenuContenedor{
+    justify-content: center; 
+    align-items: center; 
+}
+#Menutexto{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;     
+}
+#Menutexto2{
+    height: 700px;
+
+}
+.btnNosotros {
+    background: linear-gradient(45deg, #190E40, #7503A6);
+    color: white !important; 
+    border: none;
+    padding: 5px 15px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: inline-block;
+    text-decoration: none; 
+}
+  
+.btnNosotros:hover {
+    background: linear-gradient(45deg, #7503A6, #F1ACF2) !important;
+    transform: scale(1.1) !important; 
+}
+  
+.btnNosotros:active {
+    background-color: #28A745 !important; 
+}
+  
+.LetraColor{
+    color:white;
+}
+
+.LetraMaquina{
+    font-size: 40px;
+    color:white;
+    white-space: nowrap; 
+    overflow: hidden; 
+    width: 0; 
+    border-right: 2px solid white; 
+    animation: typing 4s steps(30, end) infinite, blink 0.10s step-end infinite;
+    font-style: bold;
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 350px; 
+    }
+    100% {
+      width: 0; 
+    }
+}
+  
+@keyframes blink {
+    from {
+      border-right-color:white;
+    }
+    to {
+      border-right-color: transparent;
+    }
+}
+
+#MenuContenedor {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#Menutexto {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#Menutexto2 {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px; 
+    margin: auto;
+    position: relative;
+}
+
+#planet {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+spline-viewer {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    #MenuContenedor {
+        flex-direction: column;
+    }
+    
+    #Menutexto2 {
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    
+    #Menutexto {
+        text-align: center;
+    }
+}

@@ -1,0 +1,72 @@
+#logoCom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+#logo {
+    width: 500px;
+    height: 500px;
+}
+
+#ServiContenedor{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#servicio{
+    background: linear-gradient(45deg, #751AE9, #E07CF3);
+    padding: 1.5rem;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+#servicio:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 10px 30px rgb(223, 124, 220);
+}
+
+.servicioContenido{
+    position: relative;
+    z-index: 2;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.servicioIcon{
+    background: linear-gradient(45deg, #7503A6, #F1ACF2);
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgb(223, 124, 220);
+}
+
+.servicioIcon img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1); 
+}
+

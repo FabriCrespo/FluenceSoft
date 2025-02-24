@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+
+}
+
+.contact:hover {
+    background: linear-gradient(45deg, #751AE9, #E07CF3);
+}
+
+.contact svg {
+    width: 24px;
+    height: 24px;
+    fill:white;
+}
+
+.contact h3 {
+    margin-bottom: 0.5rem;
+    color:white;
+}
+
+.contact p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+.contact-form {
+    background:black;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff4d;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-bottom-color:  #E07CF3;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(45deg, #5207F2, #7D4BB4); 
+    color:white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(45deg, #751AE9, #E07CF3);
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 100%;
+    }
+}
