@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <nav class="navbar navbar-expand-md container-fluid">
 		<div class="container-fluid">
 			<div class="menu-logo me-3">
-				<img src="../Assets/img/Logo/Logo.png" alt="Logo" class="menu-image">
+				<img src="Assets/img/Logo/Logo.png" alt="Logo" class="menu-image">
 			</div>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

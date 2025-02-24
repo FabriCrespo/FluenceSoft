@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="row" id="footer-content">
           <div class="col" id="socialRedes">
             <div class="copyright">
-              <img class="iconofoderS" src="../Assets/img/Logo/Logo.png" alt="LogoCompleto">
+              <img class="iconofoderS" src="Assets/img/Logo/Logo.png" alt="LogoCompleto">
               <p class="copyright-text">Copyright © 2025 FluenceSoft, Inc.</p>
             </div>
           </div>
