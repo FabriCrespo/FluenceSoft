@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			<div class="collapse navbar-collapse menu-nav" id="navbarNav">
 				<ul class='navbar-nav'>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="Index.html">INICIO</a>
+						<a class="nav-link text-white" href="index.html">INICIO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="Nosotros.html">NOSOTROS</a>
+						<a class="nav-link text-white" href="nosotros.html">NOSOTROS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="Servicio.html">SERVICIOS</a>
+						<a class="nav-link text-white" href="servicio.html">SERVICIOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="Contactos.html">CONTACTOS</a>
+						<a class="nav-link text-white" href="contactos.html">CONTACTOS</a>
 					</li>
 				</ul>
 			</div>
